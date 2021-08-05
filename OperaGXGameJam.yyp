@@ -1,6 +1,11 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_Player_tmp","path":"sprites/spr_Player_tmp/spr_Player_tmp.yy",},"order":0,},
+    {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":1,},
+    {"id":{"name":"spr_Meteor","path":"sprites/spr_Meteor/spr_Meteor.yy",},"order":1,},
+    {"id":{"name":"obj_Meteor","path":"objects/obj_Meteor/obj_Meteor.yy",},"order":2,},
+    {"id":{"name":"obj_HazardSpawner","path":"objects/obj_HazardSpawner/obj_HazardSpawner.yy",},"order":0,},
+    {"id":{"name":"room_test","path":"rooms/room_test/room_test.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -15,7 +20,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
