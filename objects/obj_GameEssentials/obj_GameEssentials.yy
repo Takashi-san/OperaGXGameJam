@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_PlayerBullet_tmp",
-    "path": "sprites/spr_PlayerBullet_tmp/spr_PlayerBullet_tmp.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,7 +19,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_PlayerBullet",
+  "name": "obj_GameEssentials",
   "tags": [],
   "resourceType": "GMObject",
 }

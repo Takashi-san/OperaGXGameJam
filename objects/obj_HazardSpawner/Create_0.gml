@@ -1,2 +1,2 @@
-ActivationRate = 30;
-alarm[0] = ActivationRate;
+base_spawn_rate = 60;
+alarm[0] = base_spawn_rate / global.game_difficulty;

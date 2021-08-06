@@ -4,10 +4,13 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":1,},
     {"id":{"name":"spr_Meteor","path":"sprites/spr_Meteor/spr_Meteor.yy",},"order":1,},
     {"id":{"name":"obj_PlayerBullet","path":"objects/obj_PlayerBullet/obj_PlayerBullet.yy",},"order":4,},
+    {"id":{"name":"obj_UFO_basic","path":"objects/obj_UFO_basic/obj_UFO_basic.yy",},"order":5,},
+    {"id":{"name":"room_load_essentials","path":"rooms/room_load_essentials/room_load_essentials.yy",},"order":1,},
     {"id":{"name":"script_Player","path":"scripts/script_Player/script_Player.yy",},"order":15,},
     {"id":{"name":"spr_PlayerBullet_tmp","path":"sprites/spr_PlayerBullet_tmp/spr_PlayerBullet_tmp.yy",},"order":2,},
     {"id":{"name":"obj_Meteor","path":"objects/obj_Meteor/obj_Meteor.yy",},"order":2,},
     {"id":{"name":"spr_Particle_dust","path":"sprites/spr_Particle_dust/spr_Particle_dust.yy",},"order":3,},
+    {"id":{"name":"obj_GameEssentials","path":"objects/obj_GameEssentials/obj_GameEssentials.yy",},"order":6,},
     {"id":{"name":"spr_UFO_basic","path":"sprites/spr_UFO_basic/spr_UFO_basic.yy",},"order":5,},
     {"id":{"name":"obj_GameStateManager","path":"objects/obj_GameStateManager/obj_GameStateManager.yy",},"order":3,},
     {"id":{"name":"obj_HazardSpawner","path":"objects/obj_HazardSpawner/obj_HazardSpawner.yy",},"order":0,},
@@ -27,6 +30,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"room_load_essentials","path":"rooms/room_load_essentials/room_load_essentials.yy",},},
     {"roomId":{"name":"room_test","path":"rooms/room_test/room_test.yy",},},
   ],
   "Folders": [

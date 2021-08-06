@@ -1,1 +1,1 @@
-game_difficulty = 1;
+global.game_difficulty = 1;
