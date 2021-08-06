@@ -7,8 +7,11 @@
     {"id":{"name":"script_Player","path":"scripts/script_Player/script_Player.yy",},"order":15,},
     {"id":{"name":"spr_PlayerBullet_tmp","path":"sprites/spr_PlayerBullet_tmp/spr_PlayerBullet_tmp.yy",},"order":2,},
     {"id":{"name":"obj_Meteor","path":"objects/obj_Meteor/obj_Meteor.yy",},"order":2,},
+    {"id":{"name":"spr_Particle_dust","path":"sprites/spr_Particle_dust/spr_Particle_dust.yy",},"order":3,},
+    {"id":{"name":"spr_UFO_basic","path":"sprites/spr_UFO_basic/spr_UFO_basic.yy",},"order":5,},
     {"id":{"name":"obj_GameStateManager","path":"objects/obj_GameStateManager/obj_GameStateManager.yy",},"order":3,},
     {"id":{"name":"obj_HazardSpawner","path":"objects/obj_HazardSpawner/obj_HazardSpawner.yy",},"order":0,},
+    {"id":{"name":"spr_Particle_small","path":"sprites/spr_Particle_small/spr_Particle_small.yy",},"order":4,},
     {"id":{"name":"room_test","path":"rooms/room_test/room_test.yy",},"order":0,},
   ],
   "Options": [
