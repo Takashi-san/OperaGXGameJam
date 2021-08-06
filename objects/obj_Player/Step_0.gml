@@ -1,11 +1,8 @@
-// Resolve movement
-direction = input_direction;
-speed = input_x != 0 || input_y != 0 ? movement_speed : 0;
-
-// Resolve shooting
-bullet_fire_rate_cooldown++;
-if (input_shoot && bullet_fire_rate_cooldown > bullet_fire_rate)
+if (input_action) 
 {
-	bullet_fire_rate_cooldown = 0;
+	// Resolve movement
+	direction += 180;
+
+	// Resolve shooting
 	CreatePlayerBullet(bullet_type);
 }
