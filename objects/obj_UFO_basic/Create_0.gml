@@ -1,3 +1,4 @@
+life = 1;
 base_speed = 3;
 direction = 270;
 speed = base_speed * global.game_difficulty;
