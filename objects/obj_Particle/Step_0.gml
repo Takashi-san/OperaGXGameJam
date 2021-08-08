@@ -3,11 +3,21 @@ var _ratio = timer / fade_time;
 _ratio = _ratio * _ratio;
 _ratio = 1 - _ratio;
 
-//image_alpha = _ratio;
-image_xscale = _ratio;
-image_yscale = _ratio;
+if (do_alpha_decay)
+{
+	image_alpha = _ratio;
+}
 
-speed = base_speed * _ratio;
+if (do_scale_decay) 
+{
+	image_xscale = _ratio;
+	image_yscale = _ratio;
+}
+
+if (do_speed_decay) 
+{
+	speed = base_speed * _ratio;
+}
 
 image_angle += rotation_speed;
 
