@@ -1,9 +1,18 @@
-// Input variables
-key_action = vk_space;
+if (player_id == 1) 
+{
+	key_action = global.key_player1;
+	player_color = global.color_player1;
+	direction = 0;
+}
+else if (player_id == 2) 
+{
+	key_action = global.key_player2;
+	player_color = global.color_player2;
+	direction = 180;
+}
 
-// Properties
-direction = 0;
-speed = 4;
 bullet_type = 0;
-image_blend = global.color_player1;
 life = 1;
+player_speed = 4;
+speed = player_speed;
+image_blend = player_color;

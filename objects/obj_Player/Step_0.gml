@@ -1,13 +1,20 @@
 if (input_action) 
 {
-	// Resolve movement
 	direction += 180;
 }
 
 if (life <= 0) 
 {
 	instance_destroy();
-	CreateRadialParticle(8, spr_Particle_medium, global.color_player1, 2, 4, 0.7);
-	CreateRadialParticle(16, spr_Particle_small, global.color_player1, 0.5, 3, 0.5); 
-	global.game_player_died = true;
+	CreateRadialParticle(8, spr_Particle_medium, player_color, 2, 4, 0.7);
+	CreateRadialParticle(16, spr_Particle_small, player_color, 0.5, 3, 0.5); 
+
+	if (player_id == 1) 
+	{
+		global.game_player1_died = true;
+	}
+	else if (player_id == 2) 
+	{
+		global.game_player2_died = true;
+	}
 }
