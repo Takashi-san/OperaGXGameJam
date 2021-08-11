@@ -1,4 +1,4 @@
-difficulty_scale = 0.001;
+difficulty_scale = 0.01;
 score_timer = 0;
 
 global.game_difficulty = 1;

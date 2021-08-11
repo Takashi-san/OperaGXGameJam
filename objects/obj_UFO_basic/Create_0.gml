@@ -5,7 +5,7 @@ speed = base_speed * global.game_difficulty;
 image_blend = global.color_enemy;
 
 stop_height = 416;
-stop_time = 1;
+stop_time = 1.2;
 stop_done = false;
 stop_speed = 0;
 
