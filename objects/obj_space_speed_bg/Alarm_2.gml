@@ -6,7 +6,7 @@ repeat(star_quantity)
 	_particle.sprite_index = spr_space_star;
 	_particle.fade_time = random_range(star_fade_min, star_fade_max);
 	_particle.base_speed = 0;
-	_particle.do_alpha_decay = true;
+	_particle.do_alpha_decay = false;
 	_particle.do_speed_decay = false;
 	_particle.do_scale_decay = false;
 	_particle.rotation_speed = 0;
@@ -17,6 +17,8 @@ repeat(star_quantity)
 	
 	_particle.direction = 270;
 	_particle.speed = star_speed;
+	
+	_particle.image_alpha = star_alpha;
 }
 
 alarm[2] = irandom_range(star_rate_min, star_rate_max);

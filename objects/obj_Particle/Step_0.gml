@@ -10,8 +10,8 @@ if (do_alpha_decay)
 
 if (do_scale_decay) 
 {
-	image_xscale = _ratio;
-	image_yscale = _ratio;
+	image_xscale = initial_scale * _ratio;
+	image_yscale = initial_scale * _ratio;
 }
 
 if (do_speed_decay) 

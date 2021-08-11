@@ -6,3 +6,5 @@ base_speed = 0;
 do_speed_decay = true;
 do_scale_decay = true;
 do_alpha_decay = true;
+
+initial_scale = 1;
