@@ -1,2 +1,4 @@
 base_spawn_rate = 60;
-alarm[0] = base_spawn_rate;
+game_started = false;
+
+//alarm[0] = base_spawn_rate;

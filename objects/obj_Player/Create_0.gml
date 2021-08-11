@@ -14,5 +14,4 @@ else if (player_id == 2)
 bullet_type = 0;
 life = 1;
 player_speed = 4;
-speed = player_speed;
 image_blend = player_color;

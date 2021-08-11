@@ -1,4 +1,21 @@
-if (global.game_ended) 
+if (!global.game_start) 
+{
+	if (global.game_multiplayer_mode) 
+	{
+		if (global.game_player1_confirm && global.game_player2_confirm) 
+		{
+			global.game_start = true;
+		}
+	}
+	else
+	{
+		if (global.game_player1_confirm) 
+		{
+			global.game_start = true;
+		}
+	}
+}
+else if (global.game_ended) 
 {
 	if (keyboard_check_pressed(global.key_player1) || keyboard_check_pressed(global.key_player2))
 	{
