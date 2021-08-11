@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_Player_tmp","path":"sprites/spr_Player_tmp/spr_Player_tmp.yy",},"order":0,},
+    {"id":{"name":"obj_space_speed_bg","path":"objects/obj_space_speed_bg/obj_space_speed_bg.yy",},"order":12,},
     {"id":{"name":"room_game_multi","path":"rooms/room_game_multi/room_game_multi.yy",},"order":4,},
     {"id":{"name":"script_Particle","path":"scripts/script_Particle/script_Particle.yy",},"order":16,},
     {"id":{"name":"sfx_bullet1","path":"sounds/sfx_bullet1/sfx_bullet1.yy",},"order":0,},
@@ -8,12 +9,14 @@
     {"id":{"name":"sfx_bullet3","path":"sounds/sfx_bullet3/sfx_bullet3.yy",},"order":2,},
     {"id":{"name":"obj_PlayerBullet","path":"objects/obj_PlayerBullet/obj_PlayerBullet.yy",},"order":4,},
     {"id":{"name":"spr_Flash_medium","path":"sprites/spr_Flash_medium/spr_Flash_medium.yy",},"order":7,},
+    {"id":{"name":"obj_space_bg","path":"objects/obj_space_bg/obj_space_bg.yy",},"order":11,},
     {"id":{"name":"obj_UFO_basic","path":"objects/obj_UFO_basic/obj_UFO_basic.yy",},"order":5,},
     {"id":{"name":"sfx_bullet2","path":"sounds/sfx_bullet2/sfx_bullet2.yy",},"order":1,},
     {"id":{"name":"room_load_essentials","path":"rooms/room_load_essentials/room_load_essentials.yy",},"order":1,},
     {"id":{"name":"script_Player","path":"scripts/script_Player/script_Player.yy",},"order":15,},
     {"id":{"name":"spr_Flash_small","path":"sprites/spr_Flash_small/spr_Flash_small.yy",},"order":8,},
     {"id":{"name":"spr_PlayerBullet_tmp","path":"sprites/spr_PlayerBullet_tmp/spr_PlayerBullet_tmp.yy",},"order":2,},
+    {"id":{"name":"spr_space_star","path":"sprites/spr_space_star/spr_space_star.yy",},"order":10,},
     {"id":{"name":"room_main","path":"rooms/room_main/room_main.yy",},"order":2,},
     {"id":{"name":"obj_Player_confirm","path":"objects/obj_Player_confirm/obj_Player_confirm.yy",},"order":10,},
     {"id":{"name":"room_game_single","path":"rooms/room_game_single/room_game_single.yy",},"order":3,},
