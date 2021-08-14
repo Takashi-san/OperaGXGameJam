@@ -83,6 +83,23 @@ else
 			global.game_ended = true;
 		}
 	}
+	
+	if (global.game_multiplayer_mode) 
+	{
+		if (global.game_streak >= (global.game_streak_threshold * global.game_streak_threshold_mod * global.game_streak_threshold_multiplayer_mod)) 
+		{
+			global.game_streak_threshold += global.game_streak_threshold;
+			global.game_streak = 0;
+		}
+	}
+	else
+	{
+		if (global.game_streak >= (global.game_streak_threshold * global.game_streak_threshold_mod)) 
+		{
+			global.game_streak_threshold += global.game_streak_threshold;
+			global.game_streak = 0;
+		}
+	}
 }
 
 

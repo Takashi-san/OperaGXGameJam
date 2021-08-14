@@ -6,6 +6,15 @@ if (global.game_start)
 	{
 		direction += 180;
 	}
+	
+	if (direction == 0) 
+	{
+		sprite_index = spr_Player2_tiltRight;
+	}
+	else
+	{
+		sprite_index = spr_Player2_tiltLeft;
+	}
 
 	if (life <= 0) 
 	{
@@ -21,5 +30,7 @@ if (global.game_start)
 		{
 			global.game_player2_died = true;
 		}
+		
+		audio_play_sound(sfx_explosion3, 1, false);
 	}
 }

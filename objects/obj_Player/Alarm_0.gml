@@ -1,5 +1,5 @@
 var _x = x + random_range(-sprite_width/10, sprite_width/10);
-var _particle = instance_create_layer(_x, y, "background_instances", obj_Particle);
+var _particle = instance_create_layer(_x, y + sprite_height / 2, "background_instances", obj_Particle);
 _particle.sprite_index = spr_space_star;
 _particle.fade_time = trail_fade;
 _particle.do_alpha_decay = true;

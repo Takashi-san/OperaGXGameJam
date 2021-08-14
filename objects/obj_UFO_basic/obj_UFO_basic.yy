@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_UFO_basic",
-    "path": "sprites/spr_UFO_basic/spr_UFO_basic.yy",
+    "name": "spr_UFO_3",
+    "path": "sprites/spr_UFO_3/spr_UFO_3.yy",
   },
   "solid": false,
   "visible": true,

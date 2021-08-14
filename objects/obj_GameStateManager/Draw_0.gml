@@ -1,3 +1,4 @@
+/*
 if (global.game_ended) 
 {
 	// gameplay end screen.
@@ -29,3 +30,4 @@ else
 	draw_text(10, 30, "Score: " + string(global.game_score));
 	draw_text(10, 50, "difficulty: " + string(global.game_difficulty));
 }
+*/
